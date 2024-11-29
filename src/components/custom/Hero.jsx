@@ -38,14 +38,14 @@ function Hero() {
         itineraries tailored to your interests and budget.
       </p>
       <div className="flex justify-center mt-9">
-        <Link to={"/create-trip"} className="text-current">
+        <a href="https://www.smart-travel-wheat.vercel.app" className="text-current">
           <button
             variant="outline"
             className="text-black bg-white rounded-none px-4 py-2 border border-black"
           >
             Get Started
           </button>
-        </Link>
+        </a>
       </div>
       <img
         src="./front.avif"
